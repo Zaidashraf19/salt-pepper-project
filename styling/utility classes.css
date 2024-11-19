@@ -1,0 +1,28 @@
+body {
+    color: white;
+    background-color: #000;
+}
+.dflex {
+    display: flex;
+}
+.flexdirectionc {
+    flex-direction: column;
+}
+.flexdirectionr {
+    flex-direction: row;
+}
+.justifycenter {
+    justify-content: center;
+}
+.itemcenter {
+    align-items: center;
+}
+.mt1 {
+    margin-top: 1rem;
+}
+.textnone{
+    text-decoration: none;
+}
+.textwhite{
+    color: white;
+}
