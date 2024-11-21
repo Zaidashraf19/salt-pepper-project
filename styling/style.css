@@ -33,8 +33,6 @@ nav {
     padding: 5px;
 }
 #next {
-    /* margin-left: 5px; */
-    /* margin-bottom: 10px; */
     width: 12px;
     border-radius: 5px;
 }
@@ -44,8 +42,14 @@ nav {
 div h1 {
     text-align: center;
 }
+@font-face {
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+}
 div h1 span {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "futurak";
+    src: url(../fonts/futurak.ttf);
+    font-size: 52px;
 }
 div h1 p {
     font-weight: lighter;
@@ -74,9 +78,623 @@ div b {
     margin: 20px;
 }
 #ordernow {
-    background: transparent;
+     background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px 20px 0px 20px;
+    padding-bottom: 10px;
     color: white;
-    border: 2px solid white;
-    border-radius: 30px;
-    padding: 20px;
+    width: ;
+}
+.container2 {
+    text-align: center;
+    background-color: #0f0f0f;
+}
+.container2 h1 {
+    font-size: 3.25rem;
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+}
+@font-face {
+    font-family: butler;
+    src: url(../fonts/butler.zip);
+}
+.container2 h2 {
+    font-size: 3rem;
+    font-family: butler;
+    src: url(../fonts/butler.zip);
+}
+@font-face {
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+}
+.container2 p {
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+    font-size: 1rem;
+}
+.container3 {
+    background-color:  #0f0f0f;
+}
+.container3 p {
+    color: red;
+    margin-left: 5rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0.8rem;
+}
+.container3 h1 {
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+    text-align: left;
+    margin-left: 5rem;
+    display: inline;
+}
+.container3 span {
+    margin-left: 0.5rem;
+    font-size: 2rem;
+}
+.container3 #address {
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+    margin-left: 6rem;
+    padding: 0;
+}
+.container3 #ph {
+    color: white;
+    font-size: 1rem;
+    margin-left: 6rem;
+    padding: 0;
+    text-decoration: none;
+}
+.container3 img{
+    width: 15px;
+    border-radius: 2px;
+}
+.container3 button{
+    border: 3px solid white;
+    background: transparent;
+    border-radius: 40px;
+    color: white;
+    padding: 15px;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+.container4 {
+    background-color:  #0f0f0f;
+}
+#islamabad {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 43rem;
+    margin-top: -15rem;
+}
+.container5 {
+    background-color:  #0f0f0f;
+}
+.container5 p {
+    color: red;
+    letter-spacing: 0.5rem;
+    margin-left: 38rem;
+    padding-top: 5rem;
+    padding-bottom: 0.5rem;
+}
+.container5 h1 {
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+    text-align: left;
+    margin-left: 38rem;
+    display: inline;
+}
+.container5 span {
+    margin-left: 0.5rem;
+    font-size: 2rem;
+}
+.container5 #address {
+    color: white;
+    font-size: 1rem;
+    margin-left: 38rem;
+    margin-top: -4.5rem;
+    letter-spacing: 1.5px;
+    padding-bottom: 0;
+}
+.container5 #ph {
+    color: white;
+    font-size: 1rem;
+    margin-left: 38rem;
+    text-decoration: none;
+    margin-top: -4.5rem;
+    padding-bottom: 0;
+}
+.container5 img{
+    width: 15px;
+    border-radius: 2px;
+}
+.container5 button{
+    border: 3px solid white;
+    background: transparent;
+    border-radius: 38px;
+    color: white;
+    padding: 15px;
+    margin-left: 38rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+.container6 {
+    background-color:  #0f0f0f;
+}
+#faislabad {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-top: -17rem;
+}
+.container7 {
+    background-color:  #0f0f0f;
+    padding-top: 1rem;
+}
+.container7 p {
+    color: red;
+    margin-left: 5rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0.8rem;
+}
+.container7 h1 {
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+    text-align: left;
+    margin-left: 5rem;
+    display: inline;
+}
+.container7 span {
+    margin-left: 0.5rem;
+    font-size: 2rem;
+}
+.container7 #address {
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+    margin-left: 6rem;
+    padding: 0;
+}
+.container7 #ph {
+    color: white;
+    font-size: 1rem;
+    margin-left: 6rem;
+    padding: 0;
+    text-decoration: none;
+}
+.container7 img{
+    width: 15px;
+    border-radius: 2px;
+}
+.container7 button{
+    border: 3px solid white;
+    background: transparent;
+    border-radius: 40px;
+    color: white;
+    padding: 15px;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+.container8 {
+    background-color:  #0f0f0f;
+}
+#bhawalpur {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 43rem;
+    margin-top: -15rem;
+}
+.container9 {
+    background: #0f0f0f;
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+.container9 h1 {
+    text-align: center;
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+    font-size: 52px;
+}
+.container9 h2 {
+    text-align: center;
+    font-family: butler;
+    src: url(../fonts/butler.zip);
+    font-size: 3rem;
+}
+#emporium {
+    width: 22rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.container9 p {
+    color: red;
+    margin-left: 6rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+}
+.container9 span {
+    margin-left: 5rem;
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+    font-size: 1.5rem;
+}
+.container9 #express {
+    display: inline;
+    letter-spacing: 0.2rem;
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+    font-size: 2rem;
+    color: white;
+    margin-top: -0.1rem;
+    margin-left: 0rem;
+}
+#location {
+    width: 1rem;
+    margin-left: 2.5rem;
+    padding-right: 0.6rem;
+}
+.container9 .location {
+    color: white;
+    margin-left: 2.5rem;
+    letter-spacing: 0.2rem;
+    font-size: 0.6rem;
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+}
+#phone {
+    width: 2rem;
+    margin-left: -2rem;
+    margin-bottom: -0.5rem;
+}
+.container9 .phone {
+    color: white;
+    letter-spacing: 0.5rem;
+}
+#getdirection {
+    border: 3px solid white;
+    background: transparent;
+    border-radius: 38px;
+    color: white;
+    padding: 15px;
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+#direction {
+    width: 15px;
+    border-radius: 2px;
+}
+.container10 {
+    margin-left: 0rem;
+    text-align: center;
+    margin-top: -33rem;
+}
+.container10 p {
+    color: red;
+    margin-left: 6rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.container10 span {
+    margin-left: 5rem;
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+    font-size: 1.5rem;
+    margin-left: 8rem;
+}
+.container10 #express {
+    display: inline;
+    letter-spacing: 0.2rem;
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+    font-size: 1.5rem;
+    margin-left: 0rem;
+    color: white;
+}
+.container10 .location {
+    color: white;
+    margin-left: 3rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.2rem;
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+}
+.container10 .phone {
+    color: white;
+    letter-spacing: 0.5rem;
+}
+.container11 {
+    text-align: right;
+    margin-right: 3rem;
+    margin-top: -32.8rem;
+}
+.container11 p {
+    color: red;
+    margin-right: 5rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.container11 span {
+    margin-right: 0rem;
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+    font-size: 1.5rem;
+}
+#express {
+    display: inline;
+    margin-right: 3rem;
+    letter-spacing: 0.2rem;
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+    font-size: 1.5rem;
+    color: white;
+    margin-top: -0.1rem;
+}
+.container11 .location {
+    color: white;
+    margin-right: 1rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.1rem;
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+}
+.container11 .phone {
+    color: white;
+    letter-spacing: 0.5rem;
+    margin-right: 1rem;
+}
+.container11 #getdirection {
+    border: 3px solid white;
+    background: transparent;
+    border-radius: 38px;
+    color: white;
+    padding: 15px;
+    margin-right: 5rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+.container11 #direction {
+    width: 15px;
+    border-radius: 2px;
+}
+.container12 {
+    background: #0f0f0f;
+    margin-left: 3rem;
+    padding-top: 3rem;
+}
+#emporium {
+    width: 22rem;
+    margin-left: 3rem;
+}
+.container12 p {
+    color: red;
+    margin-left: 6rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+}
+.container12 span {
+    margin-left: 5rem;
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+    font-size: 1.5rem;
+}
+.container12 #express {
+    display: inline;
+    letter-spacing: 0.2rem;
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+    font-size: 2rem;
+    color: white;
+    margin-top: -0.1rem;
+    margin-left: 0rem;
+}
+#location {
+    width: 1rem;
+    margin-left: 2rem;
+    padding-right: 0.6rem;
+}
+.container12 .location {
+    color: white;
+    margin-left: 0rem;
+    letter-spacing: 0.2rem;
+    font-size: 0.6rem;
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+}
+#phone {
+    width: 2rem;
+    margin-left: -2rem;
+    margin-bottom: -0.5rem;
+}
+.container12 .phone {
+    color: white;
+    letter-spacing: 0.5rem;
+}
+#getdirection {
+    border: 3px solid white;
+    background: transparent;
+    border-radius: 38px;
+    color: white;
+    padding: 15px;
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+#direction {
+    width: 15px;
+    border-radius: 2px;
+}
+.container13 {
+    text-align: right;
+    margin-right: 3rem;
+    margin-top: -32.8rem;
+}
+.container13 p {
+    color: red;
+    margin-right: 5rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.container13 span {
+    margin-right: 0rem;
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+    font-size: 1.5rem;
+}
+#express {
+    display: inline;
+    margin-right: 3rem;
+    letter-spacing: 0.2rem;
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+    font-size: 1.5rem;
+    color: white;
+    margin-top: -0.1rem;
+}
+.container13 .location {
+    color: white;
+    margin-right: 1rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.1rem;
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+}
+.container13 .phone {
+    margin-top: -1rem;
+    color: white;
+    letter-spacing: 0.5rem;
+    margin-right: 1rem;
+}
+.container13 #getdirection {
+    border: 3px solid white;
+    background: transparent;
+    border-radius: 38px;
+    color: white;
+    padding: 15px;
+    margin-right: 5rem;
+    margin-top: 1.1rem;
+    font-size: 1rem;
+}
+.container13 #direction {
+    width: 15px;
+    border-radius: 2px;
+}
+.container14 {
+    text-align: right;
+    margin-right: 3rem;
+    margin-top: -32.8rem;
+}
+.container14 #emporium {
+    width: 22rem;
+    height: 16rem;
+}
+.container14 p {
+    color: red;
+    margin-right: 5rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.container14 span {
+    margin-right: 0rem;
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+    font-size: 1.5rem;
+}
+#express {
+    display: inline;
+    margin-right: 3rem;
+    letter-spacing: 0.2rem;
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+    font-size: 1.5rem;
+    color: white;
+    margin-top: -0.1rem;
+}
+.container14 .location {
+    color: white;
+    margin-right: 5rem;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+}
+.container14 .phone {
+    color: white;
+    letter-spacing: 0.5rem;
+    margin-right: 1rem;
+}
+.container14 #getdirection {
+    border: 3px solid white;
+    background: transparent;
+    border-radius: 38px;
+    color: white;
+    padding: 15px;
+    margin-right: 5rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+.container14 #direction {
+    width: 15px;
+    border-radius: 2px;
+}
+.container15 {
+    margin-left: 3rem;
+    text-align: center;
+    margin-top: 0rem;
+    background-color: #0f0f0f;
+    padding-top: 2rem;
+}
+.container15 p {
+    color: red;
+    margin-left: 6rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.container15 span {
+    margin-left: 5rem;
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+    font-size: 1.5rem;
+    margin-left: 8rem;
+}
+.container15 #express {
+    display: inline;
+    letter-spacing: 0.2rem;
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+    font-size: 1.5rem;
+    margin-left: 0rem;
+    color: white;
+}
+.container15 .location {
+    color: white;
+    margin-left: 3rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.2rem;
+    font-family: apercu;
+    src: url(../fonts/Apercu-Font-Family.zip);
+}
+.container15 .phone {
+    color: white;
+    letter-spacing: 0.5rem;
 }
